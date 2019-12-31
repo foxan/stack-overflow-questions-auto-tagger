@@ -1,2 +1,9 @@
-
+# MacOS
 .DS_Store
+
+# data
+data/*
+*.zip
+
+# iPython
+.ipynb_checkpoints/*

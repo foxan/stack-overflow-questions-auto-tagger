@@ -3,3 +3,4 @@ jupytext
 kaggle
 pandas==0.24.2
 seaborn==0.9.0
+tqdm

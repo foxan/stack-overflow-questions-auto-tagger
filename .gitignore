@@ -5,5 +5,8 @@
 data/*
 *.zip
 
+# model
+model/*
+
 # iPython
 .ipynb_checkpoints/*

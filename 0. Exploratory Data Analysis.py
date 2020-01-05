@@ -14,6 +14,9 @@
 # ---
 
 # %% [markdown]
+# In this notebook, I will do some exploratory data analysis to understand more about the dataset, and to see which part we need to focus on before text processing.
+
+# %% [markdown]
 # ### Install jupytext for notebook version control
 
 # %% language="bash"
@@ -168,5 +171,11 @@ avg_tag_count = df["tag_count"].mean()
 # %%
 print(f"Each question has a minimum of {min_tag_count} tag and a maximum of {max_tag_count} tags. \
 The average number of tags per question is {avg_tag_count:.2f}.")
+
+# %% [markdown]
+# ### Export dataframe for next section
+
+# %%
+df.to_pickle(f"{DATA_DIR}/eda.pkl")
 
 # %%

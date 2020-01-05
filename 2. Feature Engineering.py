@@ -145,5 +145,6 @@ joblib.dump(X_train, f"{DATA_DIR}/x_train.pkl")
 joblib.dump(X_test, f"{DATA_DIR}/x_test.pkl")
 joblib.dump(y_train, f"{DATA_DIR}/y_train.pkl")
 joblib.dump(y_test, f"{DATA_DIR}/y_test.pkl")
+joblib.dump(multi_label_binarizer.classes_, f"{DATA_DIR}/y_classes.pkl")
 
 # %%
